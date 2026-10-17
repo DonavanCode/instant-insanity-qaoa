@@ -1,0 +1,64 @@
+# Credentials: never commit API keys or tokens in any form.
+.qbraid/
+.qiskit/
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Judges only: the judging sheet is shared privately, never published.
+judging/
+
+.env
+.env.*
+
+# Provider and CLI authentication material
+.aws/
+.azure/
+.config/gh/
+.ssh/
+.codex/
+.claude/
+.agents/
+.netrc
+.pypirc
+credentials
+credentials.*
+secrets.json
+secrets.yaml
+secrets.yml
+*token*.txt
+*api_key*.txt
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local environments, caches and transient outputs
+env/
+ENV/
+.qbraid/environments/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+*.tmp
+*.swp
+*~
+qbraid_diagnostics.json
+results/presentation_comments.json
+
+# Redundant SDK-converted circuit; archived submitted QPY is retained
+results/sv1_prepared_program.json
+
+# Isolated publication checkout (not part of the source project)
+publish/
