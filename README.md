@@ -1,6 +1,6 @@
 # Instant Insanity with compact QAOA
 
-**CORE completed. Best SV1 result: 4,073/4,096 correct towers (99.4385%).** Team names: still to be supplied. [Seven-slide presentation](slides.pdf).
+**CORE completed. Best SV1 result: 4,073/4,096 correct towers (99.4385%).** Team names: Quantung Sahur. [Seven-slide presentation](slides.pdf).
 
 Four cubes must show all four colours once on every tower side. Three qubits per cube encode a front/back opposite pair and a different left/right pair. Uniform six-choice initial states and constraint-preserving reflection mixers keep cube choices legal. Full-puzzle cost gates change phases, and repeated mixing concentrates probability on solutions. No known tower is inserted into the circuit.
 
@@ -31,4 +31,3 @@ The deeper circuit trades more gates for higher ideal success. We have no global
 
 **AI use:** Codex generated the compact encoding, mixers, optimizers, tests, experiment analysis and submission materials, reusing the qBraid starter's puzzle/cost/checking functions and unchanged Apache-2.0 helpers. Independent enumeration, circuit checks and measured-tower validation checked its work. Corrected development issues and verification details are recorded in the notebook.
 
-Before handing in, add all team members, review the code, rehearse the five-minute presentation, and submit this public repository link through the organizers' channel by **3 PM ET, October 17, 2026**.
